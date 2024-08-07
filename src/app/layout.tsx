@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import { Grid } from "@chakra-ui/react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Suspense } from "react";
 
 const overpass = Overpass({ subsets: ["latin"] });
 
@@ -28,7 +29,7 @@ export default function RootLayout({
             px={16}
           >
             <Header />
-            {children}
+            <Suspense>{children}</Suspense>
             <Footer />
           </Grid>
         </Providers>
