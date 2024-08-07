@@ -29,13 +29,13 @@ export default function NextRouter() {
 				</TabList>
 				<TabPanels>
 					<TabPanel>
+						<Text fontSize={'xl'}>たぶぜろ</Text>
+					</TabPanel>
+					<TabPanel>
 						<Text fontSize={'xl'}>たぶいち</Text>
 					</TabPanel>
 					<TabPanel>
 						<Text fontSize={'xl'}>たぶに</Text>
-					</TabPanel>
-					<TabPanel>
-						<Text fontSize={'xl'}>たぶさん</Text>
 					</TabPanel>
 				</TabPanels>
 			</Tabs>
