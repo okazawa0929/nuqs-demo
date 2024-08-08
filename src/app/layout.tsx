@@ -9,8 +9,8 @@ import { Suspense } from "react";
 const overpass = Overpass({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "nuqs sample",
-  description: "nuqs sample app",
+  title: "nuqs demo",
+  description: "nuqs demo app",
 };
 
 export default function RootLayout({
