@@ -15,7 +15,7 @@ export default function Home() {
               color={"blue"}
               _hover={{ textDecoration: "underline" }}
             >
-              next router
+              not nuqs
             </Text>
           </Link>
         </ListItem>
@@ -26,7 +26,7 @@ export default function Home() {
               color={"blue"}
               _hover={{ textDecoration: "underline" }}
             >
-              nuqs
+              yes nuqs
             </Text>
           </Link>
         </ListItem>
